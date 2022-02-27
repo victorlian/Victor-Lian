@@ -1,13 +1,11 @@
 import * as React from "react";
+import { ChakraProvider } from "@chakra-ui/react"
+import Page from "./Page";
 
-interface Props {
-    
-}
-
-const App: React.FC<Props> = ({
-
-}) => {
-    return <h2>Victor Lian</h2>
+const App = () => {
+    return <ChakraProvider>
+        <Page />
+    </ChakraProvider>
 }
 
 export default App;
