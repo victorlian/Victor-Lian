@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":";;;AAAA;IACI,eAAe;AACnB,C","sources":["webpack://victor-lian/./src/index.css"],"sourcesContent":["body {\r\n    color: darkblue;\r\n}"],"names":[],"sourceRoot":""}
