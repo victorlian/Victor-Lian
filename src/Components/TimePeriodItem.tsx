@@ -27,6 +27,7 @@ const TimePeriodItem: React.FC<Props> = ({
 
 // Software Developer, MEA Mobile Ltd
 // Skills: PHP - Laravel, ReactJS, TypeScript, AWS, MySQL, AngularJS, RESTful API, Git
+// thousands of orders every minute, >100k requests. Orders around 10k each day for up to 60k on peak
 // code reviews, documentation (openAPI)
 // Scalable code
 
