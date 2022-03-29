@@ -5,6 +5,8 @@ import EducationSection from "./Components/Sections/EducationSection";
 import WorkSection from "./Components/Sections/WorkSection";
 import TechnicalSkillsSection from "./Components/Sections/TechnicalSkillsSection";
 import PersonalSkillsSection from "./Components/Sections/PersonalSkillsSection";
+import InterestsSection from "./Components/Sections/InterestsSection";
+import ContactsSection from "./Components/Sections/ContactsSection";
 
 interface Props {
     
@@ -22,6 +24,8 @@ const Page: React.FC<Props> = ({
                     <WorkSection />
                     <TechnicalSkillsSection />
                     <PersonalSkillsSection />
+                    <InterestsSection />
+                    <ContactsSection />
                 </Box>
             </Flex>
         </>
