@@ -6,7 +6,7 @@
   "scripts": {
     "test": "\"echo no test yet\"",
     "start": "webpack serve --port 3000",
-    "build": "set NODE_ENV=production && webpack"
+    "build": "set NODE_ENV=production && webpack && cp -fR ./dist/* ./docs"
   },
   "repository": {
     "type": "git",
