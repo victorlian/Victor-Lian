@@ -38,7 +38,7 @@ const WorkSection: React.FC<Props> = ({
             </TimePeriodItem>
 
             <TimePeriodItem start="Nov 2017" end="Feb 2018">
-                <VStack justify="space-between" align="flex-start" width="100%" pl={2}>
+                <VStack justify="space-between" align="flex-start" width="100%" pl={2} textAlign="left">
                     <Text fontWeight={600}> Intern Developer, Vista Entertainment Solutions </Text>
                     <Text fontWeight={200} as='i'> Skills: C#.NET, SQL Server, Azure, ReactJS, Requirements, Scrum</Text>
                     <Flex justify="flex-start">

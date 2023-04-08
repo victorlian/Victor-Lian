@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link, Flex, VStack, Text, UnorderedList, ListItem } from '@chakra-ui/react'
+import { Link, Flex, VStack, Text, UnorderedList, ListItem, Image, HStack } from '@chakra-ui/react'
 import SectionHeader from "../SectionHeader";
 import { FaGraduationCap } from "react-icons/fa";
 import TimePeriodItem from "../TimePeriodItem";
@@ -45,6 +45,12 @@ const EducationSection: React.FC<Props> = ({
                         </UnorderedList>
                     </Flex>
                 </VStack>
+            </TimePeriodItem>
+            <TimePeriodItem start="Mar 2023" end="Present">
+                <HStack>
+                    <Image height="10vh" src="/aws-certified-cloud-practitioner.png" />
+                    <Text> AWS Certified Cloud Practioner </Text>
+                </HStack>
             </TimePeriodItem>
         </VStack>
     )

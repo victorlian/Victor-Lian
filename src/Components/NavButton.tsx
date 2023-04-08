@@ -7,7 +7,7 @@ const NavButton: React.FC<Props> = ({
     children
 }) => {
     return (
-        <Button colorScheme='blue' variant='link'>{children}</Button>
+        <Button colorScheme='black' variant='link'>{children}</Button>
     )
 }
 
