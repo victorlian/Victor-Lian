@@ -9,7 +9,7 @@ interface Props {
 const NavSection: React.FC<Props> = ({
 }) => {
     return (
-        <HStack padding={5} bg="blue.100" width="100%" justify="space-around">
+        <HStack mb={10} p={5} bg="blue.100" width="100%" justify="space-around">
             <NavButton>Intro</NavButton>
             <NavButton>Education</NavButton>
             <NavButton>Experience</NavButton>

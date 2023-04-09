@@ -6,7 +6,6 @@ import WorkSection from "./Components/Sections/WorkSection";
 import TechnicalSkillsSection from "./Components/Sections/TechnicalSkillsSection";
 import PersonalSkillsSection from "./Components/Sections/PersonalSkillsSection";
 import InterestsSection from "./Components/Sections/InterestsSection";
-import ContactsSection from "./Components/Sections/ContactsSection";
 import NavSection from "./Components/Sections/NavSection";
 
 interface Props {
@@ -19,7 +18,7 @@ const Page: React.FC<Props> = ({
     return (
         <>
             <Header />
-            <Flex width="100%" justify="center">
+            <Flex width="100%" justify="center" pb={10}>
                 <Box width="75%">
                     <NavSection />
                     <EducationSection />
@@ -27,7 +26,6 @@ const Page: React.FC<Props> = ({
                     <TechnicalSkillsSection />
                     <PersonalSkillsSection />
                     <InterestsSection />
-                    <ContactsSection />
                 </Box>
             </Flex>
         </>
