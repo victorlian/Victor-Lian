@@ -4,9 +4,7 @@ import { PhoneIcon, EmailIcon } from '@chakra-ui/icons'
 
 interface Props {}
 
-const Header: React.FC<Props> = ({
-
-}) => {
+const Header: React.FC<Props> = () => {
     return (
         <Flex width="100%" justify="center">
             <HStack width="75%" justify="space-between" padding={4}>

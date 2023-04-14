@@ -5,12 +5,12 @@ import { FaTools } from "react-icons/fa";
 import SkillProgress from "../SkillProgress";
 
 interface Props {
+    isPrinting: boolean
 }
 
-const SkillsSection: React.FC<Props> = ({
-}) => {
+const SkillsSection: React.FC<Props> = ({ isPrinting }) => {
     return (
-        <VStack width="100%" justify="center">
+        <VStack width="100%" justify="center" pt={isPrinting ? "150px" : 0}> {/* pt is used to offset the printing page */}
             <SectionHeader icon={FaTools} title={"Technical Skills"} />
             <VStack width="100%" justify="center">  {/* Using VStack + Stack is easier than Grid */}
                 <HStack width="100%" gap={3}>
