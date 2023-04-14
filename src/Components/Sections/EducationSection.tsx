@@ -40,7 +40,7 @@ const EducationSection: React.FC<Props> = ({
                         <UnorderedList listStylePos="inside" textAlign="left">
                             <ListItem> Specialising in Software Engineering </ListItem>
                             <ListItem> GPA: 8.656 / 9 </ListItem>
-                            <ListItem> 8 First in Course Awards: Enggen131, Softeng251, Softeng351, Compsci367, etc... </ListItem>
+                            <ListItem> 8 First in Course Awards: Object Oriented Programming, Database Systems, Artificial Intelligence, etc. </ListItem>
                             <ListItem> Dean's Honours List for 4 years</ListItem>
                         </UnorderedList>
                     </Flex>

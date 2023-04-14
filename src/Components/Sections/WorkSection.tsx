@@ -21,16 +21,17 @@ const WorkSection: React.FC<Props> = ({
                         <UnorderedList listStylePos="inside" textAlign="left">
                             <ListItem> Back-end development: developing and maintaining a central server responsible for handling requests from hundreds of different web and mobile applications </ListItem>
                             <UnorderedList listStylePos="inside" textAlign="left" listStyleType="circle">
-                                <ListItem> Server written in PHP (laravel) with a front-end admin site written in blade templates and AngularJS </ListItem>
+                                <ListItem> Server is written in PHP (laravel) with a front-end admin site written in blade templates and AngularJS </ListItem>
                                 <ListItem> Integrating server with multiple AWS services including EC2, S3, RDS, SQS, SMS, CloudWatch, Auto-scaling etc. </ListItem>
                                 <ListItem> Developing scalable code to handle thousands of orders per minute with higher peaks on promotional days </ListItem>
                             </UnorderedList>
                             <ListItem> Front-end development: developing and maintaining a web app builder responsible for creating sites for different brands
                                 <UnorderedList listStylePos="inside" textAlign="left" listStyleType="circle">
-                                    <ListItem> Web app builder written in React (16.8) with Chakara UI </ListItem>
+                                    <ListItem> Web app builder written in React (16.8+) with Chakara UI </ListItem>
                                     <ListItem> Integrating the web app with the server through RESTful API calls </ListItem>
                                 </UnorderedList>
                             </ListItem>
+                            <ListItem> Deploying and monitoring apps in the AWS cloud </ListItem>
                             <ListItem> Performing code reviews, writing API documentation (OpenAPI) </ListItem>
                         </UnorderedList>
                     </Flex>
