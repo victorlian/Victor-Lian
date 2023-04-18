@@ -16,8 +16,7 @@ const TimePeriodItem: React.FC<Props> = ({
                 <Text fontWeight={600}> {end} </Text>
             </VStack>
 
-
-            <Flex width="90%" justify="flex-start" borderLeft="1px" borderColor="gray.200" pl={2}>
+            <Flex width="90%" justify="flex-start" borderWidth="0px 0px 0px 1px" borderColor="gray.200" pl={2}>
                 {children}
             </Flex>
 

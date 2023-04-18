@@ -16,7 +16,7 @@ const WorkSection: React.FC<Props> = ({
             <TimePeriodItem start="Mar 2020" end="Present">
                 <VStack justify="space-between" align="flex-start" width="100%" pl={2}>
                     <Text fontWeight={600}> Software Developer, MEA Mobile Ltd. </Text>
-                    <Text fontWeight={200} as='i'> Skills: PHP (laravel), ReactJS, TypeScript, AWS, MySQL, AngularJS, RESTful API, Git, Code Reviews, Scalable Code  </Text>
+                    <Text fontWeight={200} as='i'> Skills: PHP (laravel), ReactJS, TypeScript, AWS, MySQL, AngularJS, RESTful API, Git, Scrum, Code Reviews, Scalable Code </Text>
                     <Flex justify="flex-start">
                         <UnorderedList listStylePos="inside" textAlign="left">
                             <ListItem> Back-end development: developing and maintaining a central server responsible for handling requests from hundreds of different web and mobile applications </ListItem>
