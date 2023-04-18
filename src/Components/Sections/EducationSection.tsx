@@ -48,7 +48,7 @@ const EducationSection: React.FC<Props> = ({
             </TimePeriodItem>
             <TimePeriodItem start="Mar 2023" end="Present">
                 <HStack>
-                    <Image height="5vh" src="/aws-certified-cloud-practitioner.png" />
+                    <Image height="5vh" src="aws-certified-cloud-practitioner.png" />
                     <Text> AWS Certified Cloud Practioner </Text>
                 </HStack>
             </TimePeriodItem>
