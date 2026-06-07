@@ -180117,7 +180117,7 @@ const EducationSection = ({}) => {
                         react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.ListItem, null, " GPA: 8.656 / 9 "))))),
         react__WEBPACK_IMPORTED_MODULE_0__.createElement(_TimePeriodItem__WEBPACK_IMPORTED_MODULE_5__["default"], { start: "Mar 2026", end: "Present" },
             react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.HStack, null,
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Image, { height: "5vh", src: "developer-associate.png" }),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Image, { height: "5vh", src: "./developer-associate.png" }),
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Text, null, " AWS Certified Developer - Associate ")))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (EducationSection);

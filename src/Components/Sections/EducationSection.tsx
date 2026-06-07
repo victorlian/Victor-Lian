@@ -4,7 +4,6 @@ import SectionHeader from "../SectionHeader";
 import { FaGraduationCap } from "react-icons/fa";
 import TimePeriodItem from "../TimePeriodItem";
 
-
 interface Props {
 }
 
@@ -45,7 +44,7 @@ const EducationSection: React.FC<Props> = ({
             </TimePeriodItem>
             <TimePeriodItem start="Mar 2026" end="Present">
                 <HStack>
-                    <Image height="5vh" src="developer-associate.png" />
+                    <Image height="5vh" src="./developer-associate.png" />
                     <Text> AWS Certified Developer - Associate </Text>
                 </HStack>
             </TimePeriodItem>
@@ -53,4 +52,4 @@ const EducationSection: React.FC<Props> = ({
     )
 }
 
-export default EducationSection;
+export default EducationSection;    
