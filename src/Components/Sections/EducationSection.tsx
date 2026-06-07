@@ -38,18 +38,15 @@ const EducationSection: React.FC<Props> = ({
                     <Text fontWeight={200} as='i'> Bachelor of Engineering (Honours) with First class honours</Text>
                     <Flex justify="flex-start">
                         <UnorderedList listStylePos="inside" textAlign="left">
-                            <ListItem> Specialising in Software Engineering </ListItem>
                             <ListItem> GPA: 8.656 / 9 </ListItem>
-                            <ListItem> 8 First in Course Awards: Object Oriented Programming, Database Systems, Artificial Intelligence, etc. </ListItem>
-                            <ListItem> Dean's Honours List for 4 years</ListItem>
                         </UnorderedList>
                     </Flex>
                 </VStack>
             </TimePeriodItem>
-            <TimePeriodItem start="Mar 2023" end="Present">
+            <TimePeriodItem start="Mar 2026" end="Present">
                 <HStack>
-                    <Image height="5vh" src="aws-certified-cloud-practitioner.png" />
-                    <Text> AWS Certified Cloud Practioner </Text>
+                    <Image height="5vh" src="developer-associate.png" />
+                    <Text> AWS Certified Developer - Associate </Text>
                 </HStack>
             </TimePeriodItem>
         </VStack>

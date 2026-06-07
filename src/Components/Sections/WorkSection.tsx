@@ -1,78 +1,118 @@
 import * as React from "react";
-import { Link, Flex, VStack, Text, UnorderedList, ListItem } from '@chakra-ui/react'
+import { Flex, VStack, Text, UnorderedList, ListItem } from "@chakra-ui/react";
 import SectionHeader from "../SectionHeader";
 import { FaSuitcase } from "react-icons/fa";
 import TimePeriodItem from "../TimePeriodItem";
 
+interface Props {}
 
-interface Props {
-}
+const WorkSection: React.FC<Props> = () => {
+    const visaWorkContent: React.ReactNode = (
+        <VStack align="flex-start" width="100%" pl={2}>
+            <Text fontWeight={600}>
+                Software Engineer, Visa Inc.
+            </Text>
 
-const WorkSection: React.FC<Props> = ({
-}) => {
+            <Text fontWeight={200} as="i">
+                Fullstack Development, .NET, React + TypeScript, SQL Server, Security Remediation, Accessibility, AI-assisted Development
+            </Text>
+
+            <Flex justify="flex-start">
+                <UnorderedList listStylePos="inside" textAlign="left">
+                    <ListItem>
+                        Fullstack development of enterprise-grade applications using .NET backend and React + TypeScript frontend.
+                    </ListItem>
+                    <ListItem>
+                        Led feature delivery in collaboration with cross-functional teams including Product, UX, DevOps, and Security.
+                    </ListItem>
+                    <ListItem>
+                        Delivered security remediation work ensuring compliance with enterprise security standards and vulnerability fixes.
+                    </ListItem>
+                    <ListItem>
+                        Built accessible web applications aligned with accessibility standards (e.g., WCAG compliance considerations).
+                    </ListItem>
+                    <ListItem>
+                        Leveraged AI-assisted development workflows (e.g., Claude Code, Cline) to improve development speed and code quality.
+                    </ListItem>
+                </UnorderedList>
+            </Flex>
+        </VStack>
+    );
+
+    const meaWorkContent: React.ReactNode = (
+        <VStack align="flex-start" width="100%" pl={2}>
+            <Text fontWeight={600}>
+                Software Developer, MEA Mobile Ltd.
+            </Text>
+
+            <Text fontWeight={200} as="i">
+                PHP (Laravel), React, AWS, MySQL, AngularJS, REST APIs
+            </Text>
+
+            <UnorderedList listStylePos="inside" textAlign="left">
+                <ListItem>
+                    Fullstack development and maintenance of high-traffic backend systems and React-based web applications.
+                </ListItem>
+                <ListItem>
+                    Integrated AWS services (EC2, S3, RDS, SQS, CloudWatch) and supported scalable production workloads.
+                </ListItem>
+            </UnorderedList>
+        </VStack>
+    );
+
+    const vistaWorkContent: React.ReactNode = (
+        <VStack align="flex-start" width="100%" pl={2}>
+            <Text fontWeight={600}>
+                Intern Developer, Vista Entertainment Solutions
+            </Text>
+
+            <Text fontWeight={200} as="i">
+                C#.NET, SQL Server, Agile / Scrum
+            </Text>
+
+            <UnorderedList listStylePos="inside" textAlign="left">
+                <ListItem>
+                    Supported development of internal tools and participated in Agile sprint processes within a Scrum team.
+                </ListItem>
+            </UnorderedList>
+        </VStack>
+    );
+
+    const taWorkContent: React.ReactNode = (
+        <VStack align="flex-start" width="100%" pl={2}>
+            <Text fontWeight={600}>
+                Graduate Teaching Assistant, University of Auckland
+            </Text>
+
+            <Text fontWeight={200} as="i">
+                Java, C++, OOP
+            </Text>
+
+            <UnorderedList listStylePos="inside" textAlign="left">
+                <ListItem>
+                    Supported teaching delivery through tutorials, marking, and student assistance in computer science courses.
+                </ListItem>
+            </UnorderedList>
+        </VStack>
+    );
+
     return (
         <VStack width="100%" justify="center">
             <SectionHeader icon={FaSuitcase} title={"Work Experience"} />
-            <TimePeriodItem start="Mar 2020" end="Present">
-                <VStack justify="space-between" align="flex-start" width="100%" pl={2}>
-                    <Text fontWeight={600}> Software Developer, MEA Mobile Ltd. </Text>
-                    <Text fontWeight={200} as='i'> Skills: PHP (laravel), ReactJS, TypeScript, AWS, MySQL, AngularJS, RESTful API, Git, Scrum, Code Reviews, Scalable Code </Text>
-                    <Flex justify="flex-start">
-                        <UnorderedList listStylePos="inside" textAlign="left">
-                            <ListItem> Back-end development: developing and maintaining a central server responsible for handling requests from hundreds of different web and mobile applications </ListItem>
-                            <UnorderedList listStylePos="inside" textAlign="left" listStyleType="circle">
-                                <ListItem> Server is written in PHP (laravel) with a front-end admin site written in blade templates and AngularJS </ListItem>
-                                <ListItem> Integrating server with multiple AWS services including EC2, S3, RDS, SQS, SMS, CloudWatch, Auto-scaling etc. </ListItem>
-                                <ListItem> Developing scalable code to handle thousands of orders per minute with higher peaks on promotional days </ListItem>
-                            </UnorderedList>
-                            <ListItem> Front-end development: developing and maintaining a web app builder responsible for creating sites for different brands
-                                <UnorderedList listStylePos="inside" textAlign="left" listStyleType="circle">
-                                    <ListItem> Web app builder written in React (16.8+) with Chakara UI </ListItem>
-                                    <ListItem> Integrating the web app with the server through RESTful API calls </ListItem>
-                                </UnorderedList>
-                            </ListItem>
-                            <ListItem> Deploying and monitoring apps in the AWS cloud </ListItem>
-                            <ListItem> Performing code reviews, writing API documentation (OpenAPI) </ListItem>
-                        </UnorderedList>
-                    </Flex>
-                </VStack>
+            <TimePeriodItem start="Sep 2023" end="Present">
+                {visaWorkContent}
             </TimePeriodItem>
-
+            <TimePeriodItem start="Mar 2020" end="Sep 2023">
+                {meaWorkContent}
+            </TimePeriodItem>
             <TimePeriodItem start="Nov 2017" end="Feb 2018">
-                <VStack justify="space-between" align="flex-start" width="100%" pl={2} textAlign="left">
-                    <Text fontWeight={600}> Intern Developer, Vista Entertainment Solutions </Text>
-                    <Text fontWeight={200} as='i'> Skills: C#.NET, SQL Server, Azure, ReactJS, Requirements, Scrum</Text>
-                    <Flex justify="flex-start">
-                        <UnorderedList listStylePos="inside" textAlign="left">
-                            <ListItem> Worked as a team member in a Scrum development team </ListItem>
-                            <UnorderedList listStylePos="inside" textAlign="left" listStyleType="circle">
-                                <ListItem> Maintaining existing software written in C#.NET </ListItem>
-                                <ListItem> Attended regular sprint meetings in determining priority and size of sprint items </ListItem>
-                            </UnorderedList>
-                            <ListItem> Developed a new web-based internal application </ListItem>
-                            <UnorderedList listStylePos="inside" textAlign="left" listStyleType="circle">
-                                <ListItem> Eliciting requirements from developers and managers </ListItem>
-                                <ListItem> Design the software architecture of the tool and developed the application incrementally using scrum methodologies </ListItem>
-                            </UnorderedList>
-                        </UnorderedList>
-                    </Flex>
-                </VStack>
+                {vistaWorkContent}
             </TimePeriodItem>
-
             <TimePeriodItem start="Mar 2017" end="Nov 2019">
-                <VStack justify="space-between" align="flex-start" width="100%" pl={2}>
-                    <Text fontWeight={600}> Graduate Teaching Assistant, University of Auckland </Text>
-                    <Text fontWeight={200} as='i'> Skills: Java, C++, OOP Design </Text>
-                    <Flex justify="flex-start">
-                        <UnorderedList listStylePos="inside" textAlign="left">
-                            <ListItem> Helped developing course related material, set and mark assignments, labs and quizzes </ListItem>
-                            <ListItem> Deliver supplement sessions including tutorials and office hours </ListItem>
-                        </UnorderedList>
-                    </Flex>
-                </VStack>
+                {taWorkContent}
             </TimePeriodItem>
         </VStack>
-    )
-}
+    );
+};
 
 export default WorkSection;

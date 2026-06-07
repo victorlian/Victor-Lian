@@ -14,14 +14,14 @@ const SkillsSection: React.FC<Props> = ({ isPrinting }) => {
             <SectionHeader icon={FaTools} title={"Technical Skills"} />
             <VStack width="100%" justify="center">  {/* Using VStack + Stack is easier than Grid */}
                 <HStack width="100%" gap={3}>
-                    <SkillProgress label='C#' value={80} />
-                    <SkillProgress label='PHP (laravel)' value={90} />
+                    <SkillProgress label='.NET' value={90} />
                     <SkillProgress label='Java' value={75} />
+                    <SkillProgress label='PHP (laravel)' value={90} />
                 </HStack>
                 <HStack width="100%" gap={3}>
-                    <SkillProgress label='ReactJS' value={85} />
-                    <SkillProgress label='SQL' value={80} />
-                    <SkillProgress label='AWS' value={80} />
+                    <SkillProgress label='ReactJS' value={90} />
+                    <SkillProgress label='SQL' value={90} />
+                    <SkillProgress label='AWS' value={90} />
                 </HStack>
                 <HStack width="100%" gap={3}>
                     <SkillProgress label='Linux/Bash' value={70} />

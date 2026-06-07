@@ -63,7 +63,7 @@ const Page: React.FC<Props> = ({
                         <Box width="75%">
                             <EducationSection />
                             <WorkSection />
-                            <TechnicalSkillsSection isPrinting={isPrinting}/>
+                            {/* <TechnicalSkillsSection isPrinting={isPrinting}/> */}
                             <PersonalSkillsSection />
                             <InterestsSection />
                             <Flex justify="flex-end" pt="30px">
