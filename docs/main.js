@@ -180219,7 +180219,8 @@ __webpack_require__.r(__webpack_exports__);
 
 const WorkSection = () => {
     const visaWorkContent = (react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.VStack, { align: "flex-start", width: "100%", pl: 2 },
-        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Text, { fontWeight: 600 }, "Software Engineer, Visa Inc."),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Text, { fontWeight: 600 }, "Senior Software Engineer, Visa Inc."),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Text, { fontWeight: 600 }, "Staff Software Engineer, Visa Inc."),
         react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Text, { fontWeight: 200, as: "i" }, "Fullstack Development, .NET, React + TypeScript, SQL Server, Security Remediation, Accessibility, AI-assisted Development"),
         react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Flex, { justify: "flex-start" },
             react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.UnorderedList, { listStylePos: "inside", textAlign: "left" },
