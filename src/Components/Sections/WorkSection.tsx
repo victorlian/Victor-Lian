@@ -10,7 +10,10 @@ const WorkSection: React.FC<Props> = () => {
     const visaWorkContent: React.ReactNode = (
         <VStack align="flex-start" width="100%" pl={2}>
             <Text fontWeight={600}>
-                Software Engineer, Visa Inc.
+                Senior Software Engineer, Visa Inc.
+            </Text>
+            <Text fontWeight={600}>
+                Staff Software Engineer, Visa Inc.
             </Text>
 
             <Text fontWeight={200} as="i">
